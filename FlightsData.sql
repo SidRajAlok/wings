@@ -1,4 +1,4 @@
-CREATE DATABASE Database_1;
+CREATE DATABASE IF NOT EXISTS Database_1;
 USE Database_1;
 CREATE TABLE IF NOT EXISTS Flights (
     `No` INT,
