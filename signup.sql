@@ -1,6 +1,6 @@
-CREATE DATABASE signup;
+CREATE DATABASE IF NOT EXISTS signup;
 USE signup;
-CREATE TABLE `signup` (
+CREATE TABLE IF NOT EXISTS `signup` (
   `UN` varchar(256) NOT NULL,
   `PS` varchar(256) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
